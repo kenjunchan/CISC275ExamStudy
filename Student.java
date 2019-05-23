@@ -1,10 +1,5 @@
 package midterm1;
 import java.util.*;
-
-interface Movers2{
-	public void move();
-}
-
 class Person {
 	String name;
 	int age;
@@ -13,11 +8,13 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
+	public String toString() {
+		return String.valueOf(this.age);
+	}
 }
 
 class Main{
 	public static void main(String[]args) {
-		//modify the following code to make the code compile
 		ArrayList<Person> movers = new ArrayList<>();
 		movers.add(new Person("Jane", 5));
 		movers.add(new Person("Mary", 7));
@@ -28,6 +25,8 @@ class Main{
 		//What is the "natural order" in java
 		
 		//sort using an in-line Comparator in ascending order
+		
+		//modify the in-line Comparator to be a minimalistic lambda expression (you may include <Types> if you wish)
 		
 		//modify the code to include a toString method that prints out the name followed by the age of the Person [Bob, 8]
 		
