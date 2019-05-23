@@ -6,4 +6,8 @@ import java.util.*;
  * All swim except BoxTurtles. 
  * Next, make a list containing all kinds of animals, fill it and print it; 
  * then make a list of only animals that can swim. 
+ * 
+ * Then create a UML Diagram of these classes and interfaces
  */
+
+	
